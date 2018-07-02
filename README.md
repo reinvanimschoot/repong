@@ -1,34 +1,25 @@
-Reprocessing Example
----
+# RePong
 
-Clone this repo to get started with [Reprocessing](https://github.com/schmavery/reprocessing).
+A [ReasonML](https://reasonml.github.io/) implementation of Pong, built with [Reprocessing](https://github.com/Schmavery/reprocessing)
 
-Demos are on other branches:
-
-- [Flappy Bird](https://github.com/bsansouci/reprocessing-example/tree/livestream-flappybird)
-- [2048](https://github.com/bsansouci/reprocessing-example/tree/2048)
-
-...and more on the [Reprocessing repo](https://github.com/schmavery/reprocessing#projects-using-reprocessing).
-
-## How to
-```
-git clone https://github.com/bsansouci/reprocessing-example.git
-```
+![alt text](./assets/screenshot.png "RePong")
 
 ### Install
 
 ```
-npm install
+yarn
 ```
 
 ### Build
+
 ```
-npm run build
+yarn build
 ```
 
 ### Start
+
 ```
-npm start
+yarn start
 ```
 
 To build to JS run `npm run build:web` and then run a static server, like `python -m SimpleHTTPServer` and go to `localhost:8000`. If you're using safari you can simply open the `index.html` and tick `Develop > Disable Cross-Origin Restrictions`.
